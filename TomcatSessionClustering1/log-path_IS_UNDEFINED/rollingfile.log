@@ -1,0 +1,343 @@
+[INFO ] 2022-11-23 14:24:19.939 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3365 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:24:19.941 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:24:19.964 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:24:19.965 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:24:20.360 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:24:20.364 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:24:20.365 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:24:20.365 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-23 14:24:20.392 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:24:20.392 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 427 ms
+[INFO ] 2022-11-23 14:24:20.534 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:24:20.541 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:24:20.555 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:24:20.562 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 0.869 seconds (JVM running for 1.221)
+[INFO ] 2022-11-23 14:35:00.277 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3530 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:35:00.278 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:35:00.299 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:35:00.299 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:35:00.707 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:35:00.712 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:35:00.712 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:35:00.712 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:35:00.712 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:35:00.726 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/127.0.0.1:5000]
+[INFO ] 2022-11-23 14:35:00.734 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:35:00.735 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:35:01.087 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=465140, securePort=-1, UDP Port=-1, id={92 63 49 120 123 64 75 96 -90 -83 -88 65 20 102 -22 -79 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:35:01.737 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:35:01.741 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:35:01.755 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:35:02.746 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:35:02.801 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:35:02.802 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2503 ms
+[INFO ] 2022-11-23 14:35:02.819 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:35:02.820 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:35:02.821 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=466656, securePort=-1, UDP Port=-1, id={92 63 49 120 123 64 75 96 -90 -83 -88 65 20 102 -22 -79 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 14:35:02.928 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 2:35 PM] received in [107] ms.
+[INFO ] 2022-11-23 14:35:02.931 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 14:35:03.063 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:35:03.070 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:35:03.075 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:35:03.081 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.137 seconds (JVM running for 3.706)
+[INFO ] 2022-11-23 14:35:08.007 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=472067, securePort=-1, UDP Port=-1, id={92 63 49 120 123 64 75 96 -90 -83 -88 65 20 102 -22 -79 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 14:35:17.661 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=1014, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:35:31.362 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3537 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:35:31.363 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:35:31.382 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:35:31.383 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:35:31.792 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:35:31.797 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:35:31.797 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:35:31.797 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:35:31.797 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:35:31.810 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/127.0.0.1:5000]
+[INFO ] 2022-11-23 14:35:31.818 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:35:31.819 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:35:32.299 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=15646, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:35:32.827 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:35:32.834 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:35:32.852 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:35:33.839 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:35:33.907 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:35:33.907 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2524 ms
+[INFO ] 2022-11-23 14:35:33.929 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:35:33.929 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:35:33.931 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=17155, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 14:35:34.038 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 2:35 PM] received in [107] ms.
+[INFO ] 2022-11-23 14:35:34.041 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 14:35:34.184 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:35:34.192 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:35:34.196 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:35:34.203 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.074 seconds (JVM running for 3.437)
+[INFO ] 2022-11-23 14:36:17.775 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:36:17.775 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:36:17.776 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-23 14:42:23.236 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3690 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:42:23.237 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:42:23.259 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:42:23.259 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:42:23.676 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:42:23.680 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:42:23.681 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:42:23.681 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:42:23.681 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:42:23.699 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/127.0.0.1:5000]
+[INFO ] 2022-11-23 14:42:23.707 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:42:23.709 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:42:24.085 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=427429, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:42:24.715 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:42:24.719 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:42:24.731 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:42:25.725 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:42:25.781 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:42:25.781 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2522 ms
+[INFO ] 2022-11-23 14:42:25.797 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:42:25.798 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:42:25.799 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=428943, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 14:42:25.901 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 2:42 PM] received in [102] ms.
+[INFO ] 2022-11-23 14:42:25.904 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 14:42:26.050 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:42:26.058 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:42:26.063 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:42:26.070 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.054 seconds (JVM running for 3.567)
+[INFO ] 2022-11-23 14:45:31.773 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5002,{127, 0, 0, 1},5002, alive=615126, securePort=-1, UDP Port=-1, id={82 -103 -45 30 -28 -62 68 -48 -118 -102 -60 109 78 -128 16 -31 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 14:45:57.790 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3713 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:45:57.791 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:45:57.810 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:45:57.810 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:45:58.223 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:45:58.228 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:45:58.228 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:45:58.228 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:45:58.228 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:45:58.245 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:5000]
+[INFO ] 2022-11-23 14:45:58.252 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:45:58.253 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:45:59.258 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:45:59.264 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:46:00.272 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:46:00.325 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:46:00.325 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2514 ms
+[INFO ] 2022-11-23 14:46:00.348 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:46:00.348 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:46:00.348 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]: skipping state transfer. No members active in cluster group.
+[INFO ] 2022-11-23 14:46:00.350 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 14:46:00.472 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:46:00.480 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:46:00.484 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:46:00.491 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 2.977 seconds (JVM running for 3.483)
+[INFO ] 2022-11-23 14:46:03.309 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:46:04.286 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=1014, securePort=-1, UDP Port=-1, id={-61 -27 -112 -125 -29 108 67 42 -73 89 -5 65 -42 -98 29 -65 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:46:14.382 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:46:14.383 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:46:14.384 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-23 14:47:50.997 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=107726, securePort=-1, UDP Port=-1, id={-61 -27 -112 -125 -29 108 67 42 -73 89 -5 65 -42 -98 29 -65 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 14:47:57.020 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3731 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:47:57.021 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:47:57.040 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:47:57.040 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:47:57.586 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:47:57.591 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:47:57.592 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:47:57.592 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:47:57.592 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:47:57.605 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/127.0.0.1:5002]
+[INFO ] 2022-11-23 14:47:57.613 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:47:57.615 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:47:57.761 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5000,{127, 0, 0, 1},5000, alive=3030, securePort=-1, UDP Port=-1, id={-82 -38 -38 105 -36 32 76 -125 -100 -69 37 -30 -89 49 -98 44 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:47:58.621 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:47:58.623 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:47:58.635 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:47:59.629 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:47:59.681 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:47:59.681 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2641 ms
+[INFO ] 2022-11-23 14:47:59.695 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:47:59.695 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:47:59.697 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5000,{127, 0, 0, 1},5000, alive=4539, securePort=-1, UDP Port=-1, id={-82 -38 -38 105 -36 32 76 -125 -100 -69 37 -30 -89 49 -98 44 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 14:47:59.804 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 2:47 PM] received in [107] ms.
+[INFO ] 2022-11-23 14:47:59.807 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[WARN ] 2022-11-23 14:47:59.942 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2022-11-23 14:47:59.950 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:47:59.954 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:47:59.960 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.184 seconds (JVM running for 3.53)
+[INFO ] 2022-11-23 14:48:11.153 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:48:11.153 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:48:11.155 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-23 14:49:23.070 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3737 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:49:23.071 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:49:23.090 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:49:23.090 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:49:23.476 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:49:23.481 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:49:23.481 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:49:23.481 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:49:23.506 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:49:23.506 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 415 ms
+[WARN ] 2022-11-23 14:49:23.656 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2022-11-23 14:49:23.664 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:49:23.678 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:49:23.685 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 0.831 seconds (JVM running for 1.359)
+[INFO ] 2022-11-23 14:49:47.984 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3741 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:49:47.985 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:49:48.005 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:49:48.005 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:49:48.492 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:49:48.496 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:49:48.497 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:49:48.497 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:49:48.497 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:49:48.510 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:5001]
+[INFO ] 2022-11-23 14:49:48.519 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:49:48.520 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:49:48.922 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=19701, securePort=-1, UDP Port=-1, id={-3 -63 29 38 -44 122 75 -84 -98 97 91 -95 68 91 26 39 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:49:49.527 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:49:49.533 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:49:49.547 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:49:50.536 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:49:50.588 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:49:50.589 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2583 ms
+[INFO ] 2022-11-23 14:49:50.605 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:49:50.606 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:49:50.608 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=21215, securePort=-1, UDP Port=-1, id={-3 -63 29 38 -44 122 75 -84 -98 97 91 -95 68 91 26 39 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 14:49:50.711 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 2:49 PM] received in [103] ms.
+[INFO ] 2022-11-23 14:49:50.714 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[WARN ] 2022-11-23 14:49:50.846 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2022-11-23 14:49:50.854 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:49:50.859 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:49:50.865 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.116 seconds (JVM running for 3.46)
+[INFO ] 2022-11-23 14:52:58.770 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5000,{172, 16, 20, 154},5000, alive=209554, securePort=-1, UDP Port=-1, id={-3 -63 29 38 -44 122 75 -84 -98 97 91 -95 68 91 26 39 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 14:53:07.308 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=1011, securePort=-1, UDP Port=-1, id={-38 -71 35 55 -127 60 71 -89 -119 -94 35 12 35 -10 78 84 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:55:14.815 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=128519, securePort=-1, UDP Port=-1, id={-38 -71 35 55 -127 60 71 -89 -119 -94 35 12 35 -10 78 84 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 14:57:45.807 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3869 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 14:57:45.808 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 14:57:45.828 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 14:57:45.828 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 14:57:46.283 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 14:57:46.288 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:57:46.288 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 14:57:46.288 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 14:57:46.288 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 14:57:46.302 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:5000]
+[INFO ] 2022-11-23 14:57:46.311 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 14:57:46.313 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 14:57:47.314 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 14:57:47.316 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 14:57:47.835 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 14:57:48.322 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 14:57:48.380 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 14:57:48.380 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2551 ms
+[INFO ] 2022-11-23 14:57:48.397 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 14:57:48.397 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 14:57:48.397 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]: skipping state transfer. No members active in cluster group.
+[INFO ] 2022-11-23 14:57:48.399 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 14:57:48.456 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=1013, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 14:57:48.527 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 14:57:48.541 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 14:57:48.547 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 14:57:48.554 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 2.97 seconds (JVM running for 3.325)
+[INFO ] 2022-11-23 14:58:53.137 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:58:53.137 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 14:58:53.138 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-23 15:01:19.289 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3887 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 15:01:19.290 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 15:01:19.308 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 15:01:19.309 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 15:01:19.706 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 15:01:19.710 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:01:19.710 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 15:01:19.710 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 15:01:19.710 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 15:01:19.726 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:5000]
+[INFO ] 2022-11-23 15:01:19.734 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 15:01:19.736 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 15:01:19.854 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=212405, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:01:20.741 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 15:01:20.743 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 15:01:20.750 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 15:01:21.749 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 15:01:21.806 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 15:01:21.806 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2497 ms
+[INFO ] 2022-11-23 15:01:21.823 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 15:01:21.823 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 15:01:21.825 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=213917, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 15:01:21.927 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 3:01 PM] received in [103] ms.
+[INFO ] 2022-11-23 15:01:21.930 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 15:01:22.062 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 15:01:22.070 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:01:22.074 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 15:01:22.080 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 2.994 seconds (JVM running for 3.493)
+[INFO ] 2022-11-23 15:01:28.433 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 15:01:28.433 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 15:01:28.434 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-23 15:02:11.773 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 3901 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 15:02:11.773 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 15:02:11.792 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 15:02:11.792 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 15:02:12.171 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 15:02:12.175 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:02:12.176 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 15:02:12.176 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 15:02:12.176 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 15:02:12.188 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:5000]
+[INFO ] 2022-11-23 15:02:12.196 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 15:02:12.197 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 15:02:12.342 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=264893, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:02:13.204 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 15:02:13.210 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 15:02:13.222 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 15:02:14.213 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 15:02:14.268 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 15:02:14.268 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2475 ms
+[INFO ] 2022-11-23 15:02:14.283 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 15:02:14.284 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 15:02:14.286 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=266403, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 15:02:14.389 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 3:02 PM] received in [104] ms.
+[INFO ] 2022-11-23 15:02:14.392 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[INFO ] 2022-11-23 15:02:14.515 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-23 15:02:14.522 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:02:14.526 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 15:02:14.533 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 2.979 seconds (JVM running for 3.305)
+[INFO ] 2022-11-23 15:02:18.154 [http-nio-8881-exec-1][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-23 15:02:18.155 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-23 15:02:18.156 [http-nio-8881-exec-1][FrameworkServlet.java] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-23 15:03:13.167 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5005,{172, 16, 20, 154},5005, alive=325724, securePort=-1, UDP Port=-1, id={-53 -2 -45 34 -93 42 64 -24 -78 -29 24 -81 25 -1 -25 -6 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:03:16.617 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5005,{127, 0, 0, 1},5005, alive=1011, securePort=-1, UDP Port=-1, id={-21 -58 43 12 39 -20 77 99 -65 31 1 -112 63 -47 -48 40 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:03:38.656 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5005,{127, 0, 0, 1},5005, alive=23055, securePort=-1, UDP Port=-1, id={-21 -58 43 12 39 -20 77 99 -65 31 1 -112 63 -47 -48 40 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:03:50.496 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5005,{127, 0, 0, 1},5005, alive=1019, securePort=-1, UDP Port=-1, id={8 42 125 82 71 26 68 124 -105 40 -38 -126 45 38 -81 6 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:28:44.552 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{127, 0, 0, 1}:5005,{127, 0, 0, 1},5005, alive=1495077, securePort=-1, UDP Port=-1, id={8 42 125 82 71 26 68 124 -105 40 -38 -126 45 38 -81 6 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:28:48.833 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=1019, securePort=-1, UDP Port=-1, id={-31 26 16 -9 78 -89 66 -9 -100 -91 42 -101 -124 45 -128 -116 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:29:11.864 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=24052, securePort=-1, UDP Port=-1, id={-31 26 16 -9 78 -89 66 -9 -100 -91 42 -101 -124 45 -128 -116 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:30:08.810 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=1013, securePort=-1, UDP Port=-1, id={-110 -94 37 -47 16 -107 73 -92 -86 115 -67 -95 -93 -110 -124 -79 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:30:22.704 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:5001,{172, 16, 20, 154},5001, alive=14908, securePort=-1, UDP Port=-1, id={-110 -94 37 -47 16 -107 73 -92 -86 115 -67 -95 -93 -110 -124 -79 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:30:30.466 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:6000,{172, 16, 20, 154},6000, alive=1018, securePort=-1, UDP Port=-1, id={12 59 -46 103 -98 -51 75 -33 -113 -48 43 15 -98 -55 1 39 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:30:36.405 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:6000,{172, 16, 20, 154},6000, alive=6960, securePort=-1, UDP Port=-1, id={12 59 -46 103 -98 -51 75 -33 -113 -48 43 15 -98 -55 1 39 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+[INFO ] 2022-11-23 15:31:00.321 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Starting TomcatSessionClustering1Application using Java 11.0.17 on gwon-yeonghyeon-ui-MacBookPro.local with PID 4052 (/Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1/build/classes/java/main started by gwon-yeonghyeon in /Users/gwon-yeonghyeon/Desktop/개인 Github/test/TomcatSessionClustering1)
+[INFO ] 2022-11-23 15:31:00.322 [restartedMain][SpringApplication.java] c.e.t.TomcatSessionClustering1Application - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-23 15:31:00.341 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-23 15:31:00.341 [restartedMain][DeferredLog.java] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-23 15:31:00.756 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8881 (http)
+[INFO ] 2022-11-23 15:31:00.760 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:31:00.760 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-23 15:31:00.760 [restartedMain][DirectJDKLog.java] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+[INFO ] 2022-11-23 15:31:00.760 [restartedMain][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Cluster is about to start
+[INFO ] 2022-11-23 15:31:00.773 [restartedMain][DirectJDKLog.java] o.a.c.t.t.ReceiverBase - Receiver Server Socket bound to:[/172.16.20.154:6001]
+[INFO ] 2022-11-23 15:31:00.781 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Setting cluster mcast soTimeout to [500]
+[INFO ] 2022-11-23 15:31:00.783 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+[INFO ] 2022-11-23 15:31:00.941 [Membership-MemberAdded][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:6000,{172, 16, 20, 154},6000, alive=12613, securePort=-1, UDP Port=-1, id={-68 71 -94 -98 121 42 65 -119 -127 -93 36 1 -16 -92 -91 -27 }, payload={}, command={}, domain={}]]
+[INFO ] 2022-11-23 15:31:01.786 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[4]
+[INFO ] 2022-11-23 15:31:01.789 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+[INFO ] 2022-11-23 15:31:01.802 [Tribes-Task-Receiver[Tomcat-Channel]-1][DirectJDKLog.java] o.a.c.t.i.BufferPool - Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool15Impl]
+[INFO ] 2022-11-23 15:31:02.795 [restartedMain][DirectJDKLog.java] o.a.c.t.m.McastService - Done sleeping, membership established, start level:[8]
+[INFO ] 2022-11-23 15:31:02.856 [restartedMain][DirectJDKLog.java] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-23 15:31:02.856 [restartedMain][ServletWebServerApplicationContext.java] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2514 ms
+[INFO ] 2022-11-23 15:31:02.873 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Register manager [localhost#] to cluster element [Engine] with name [Tomcat]
+[INFO ] 2022-11-23 15:31:02.873 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Starting clustering manager at [localhost#]
+[INFO ] 2022-11-23 15:31:02.875 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#], requesting session state from [org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:6000,{172, 16, 20, 154},6000, alive=14115, securePort=-1, UDP Port=-1, id={-68 71 -94 -98 121 42 65 -119 -127 -93 36 1 -16 -92 -91 -27 }, payload={}, command={}, domain={}]]. This operation will timeout if no session state has been received within [60] seconds.
+[INFO ] 2022-11-23 15:31:02.982 [restartedMain][DirectJDKLog.java] o.a.c.h.s.DeltaManager - Manager [localhost#]; session state sent at [11/23/22, 3:31 PM] received in [107] ms.
+[INFO ] 2022-11-23 15:31:02.985 [restartedMain][DirectJDKLog.java] o.a.c.h.s.JvmRouteBinderValve - JvmRouteBinderValve started
+[WARN ] 2022-11-23 15:31:03.120 [restartedMain][OptionalLiveReloadServer.java] o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2022-11-23 15:31:03.128 [restartedMain][DirectJDKLog.java] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8881"]
+[INFO ] 2022-11-23 15:31:03.133 [restartedMain][TomcatWebServer.java] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8881 (http) with context path ''
+[INFO ] 2022-11-23 15:31:03.140 [restartedMain][StartupInfoLogger.java] c.e.t.TomcatSessionClustering1Application - Started TomcatSessionClustering1Application in 3.038 seconds (JVM running for 3.378)
+[INFO ] 2022-11-23 15:31:11.847 [Membership-MemberDisappeared][DirectJDKLog.java] o.a.c.h.t.SimpleTcpCluster - Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{172, 16, 20, 154}:6000,{172, 16, 20, 154},6000, alive=23527, securePort=-1, UDP Port=-1, id={-68 71 -94 -98 121 42 65 -119 -127 -93 36 1 -16 -92 -91 -27 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]

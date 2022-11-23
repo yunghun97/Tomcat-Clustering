@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <springProfile name="dev">
+        <property name="log-path" value="/Users/gwon-yeonghyeon/Desktop" />
+    </springProfile>
+    <springProfile name="prod">
+        <property name="log-path" value="/logs/tomcat/portal-voc-dashboard" />
+    </springProfile>
+
+    <appender name="Console_Appender"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %cyan(%d{yyyy/MM/dd HH:mm:ss.SSS}) %highlight(%-5level) [%c{2:q}] %yellow([%t]) %m%n
+            </Pattern>
+        </layout>
+    </appender>
+
+    <appender name="File_Appender"
+              class="ch.qos.logback.core.FileAppender">
+        <file>${log-path}/logfile.log</file>
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <charset>UTF-8</charset>
+            <Pattern>%cyan(%d{yyyy/MM/dd HH:mm:ss.SSS}) %highlight(%-5level) [%c{2:q}] %yellow([%t]) %m%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="RollingFile_Appender"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log-path}/rollingfile.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${log-path}/archive/rollingfile.log_%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+            <maxFileSize>1GB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>50GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t][%F] %c{1} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- LOG everything at INFO level -->
+    <!-- LOG everything at INFO level -->
+    <root level="info">
+        <appender-ref ref="RollingFile_Appender" />
+        <appender-ref ref="Console_Appender" />
+    </root>
+    <logger name="org.hibernate.SQL" level="info" additivity="false">
+        <appender-ref ref="RollingFile_Appender" />
+        <appender-ref ref="Console_Appender" />
+    </logger>
+    <logger name="org.hibernate.type.descriptor.sql" level="error" additivity="false">
+        <appender-ref ref="RollingFile_Appender" />
+        <appender-ref ref="Console_Appender" />
+    </logger>
+
+    <logger name="com.voc.backend" level="warn" additivity="false">
+        <appender-ref ref="RollingFile_Appender" />
+        <appender-ref ref="Console_Appender" />
+    </logger>
+</configuration>

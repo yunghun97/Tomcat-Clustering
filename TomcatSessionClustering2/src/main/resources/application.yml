@@ -1,0 +1,6 @@
+server:
+  port: 8882
+
+#logging:
+#  level:
+#    root: debug
